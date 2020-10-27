@@ -1,9 +1,9 @@
 # Goptuna
 
 ![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
-[![GoDoc](https://godoc.org/github.com/c-bata/goptuna?status.svg)](https://godoc.org/github.com/c-bata/goptuna)
-[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/goptuna)](https://goreportcard.com/report/github.com/c-bata/goptuna)
-![tests](https://github.com/c-bata/goptuna/workflows/tests/badge.svg)
+[![GoDoc](https://godoc.org/github.com/Hikely/goptuna?status.svg)](https://godoc.org/github.com/Hikely/goptuna)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Hikely/goptuna)](https://goreportcard.com/report/github.com/Hikely/goptuna)
+![tests](https://github.com/Hikely/goptuna/workflows/tests/badge.svg)
 
 Distributed hyperparameter optimization framework, inspired by [Optuna](https://github.com/optuna/optuna) [1].
 This library is particularly designed for machine learning, but everything will be able to optimize if you can define the objective function
@@ -31,8 +31,8 @@ These algorithms are implemented in pure Go and continuously benchmarked on GitH
 **Projects using Goptuna:**
 
 * [Kubeflow/Katib: Kubernetes-based system for hyperparameter tuning and neural architecture search.](https://github.com/kubeflow/katib)
-* [c-bata/goptuna-bayesopt: Goptuna sampler for Gaussian Process based bayesian optimization using d4l3k/go-bayesopt.](https://github.com/c-bata/goptuna-bayesopt) [9]
-* [c-bata/goptuna-isucon9q: Applying bayesian optimization for the parameters of MySQL, Nginx and Go web applications.](https://github.com/c-bata/goptuna-isucon9q)
+* [Hikely/goptuna-bayesopt: Goptuna sampler for Gaussian Process based bayesian optimization using d4l3k/go-bayesopt.](https://github.com/Hikely/goptuna-bayesopt) [9]
+* [Hikely/goptuna-isucon9q: Applying bayesian optimization for the parameters of MySQL, Nginx and Go web applications.](https://github.com/Hikely/goptuna-isucon9q)
 * (If you have a project which uses Goptuna and want your own project to be listed here, please submit a GitHub issue.)
 
 
@@ -41,7 +41,7 @@ These algorithms are implemented in pure Go and continuously benchmarked on GitH
 You can integrate Goptuna in wide variety of Go projects because of its portability of pure Go.
 
 ```console
-$ go get -u github.com/c-bata/goptuna
+$ go get -u github.com/Hikely/goptuna
 ```
 
 ## Usage
@@ -58,8 +58,8 @@ import (
     "log"
     "math"
 
-    "github.com/c-bata/goptuna"
-    "github.com/c-bata/goptuna/tpe"
+    "github.com/Hikely/goptuna"
+    "github.com/Hikely/goptuna/tpe"
 )
 
 // ① Define an objective function which returns a value you want to minimize.
@@ -211,9 +211,9 @@ Blog posts:
 
 Status:
 
-* [godoc.org](http://godoc.org/github.com/c-bata/goptuna)
-* [gocover.io](https://gocover.io/github.com/c-bata/goptuna)
-* [goreportcard.com](https://goreportcard.com/report/github.com/c-bata/goptuna)
+* [godoc.org](http://godoc.org/github.com/Hikely/goptuna)
+* [gocover.io](https://gocover.io/github.com/Hikely/goptuna)
+* [goreportcard.com](https://goreportcard.com/report/github.com/Hikely/goptuna)
 
 ## License
 

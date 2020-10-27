@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/c-bata/goptuna"
+	"github.com/Hikely/goptuna"
 )
 
 func TestFrozenTrial_Validate(t *testing.T) {

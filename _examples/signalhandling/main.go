@@ -11,8 +11,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/c-bata/goptuna"
-	"github.com/c-bata/goptuna/rdb"
+	"github.com/Hikely/goptuna"
+	"github.com/Hikely/goptuna/rdb"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )

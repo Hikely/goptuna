@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/c-bata/goptuna/cmaes"
+	"github.com/Hikely/goptuna/cmaes"
 	"gonum.org/v1/gonum/mat"
 )
 

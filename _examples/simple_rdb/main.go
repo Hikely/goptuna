@@ -5,9 +5,9 @@ import (
 	"log"
 	"math"
 
-	"github.com/c-bata/goptuna"
-	"github.com/c-bata/goptuna/rdb"
-	"github.com/c-bata/goptuna/tpe"
+	"github.com/Hikely/goptuna"
+	"github.com/Hikely/goptuna/rdb"
+	"github.com/Hikely/goptuna/tpe"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"

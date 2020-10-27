@@ -3,8 +3,8 @@ package stats_test
 import (
 	"testing"
 
-	"github.com/c-bata/goptuna/internal/stats"
-	"github.com/c-bata/goptuna/internal/testutil"
+	"github.com/Hikely/goptuna/internal/stats"
+	"github.com/Hikely/goptuna/internal/testutil"
 )
 
 func Test_percentile(t *testing.T) {

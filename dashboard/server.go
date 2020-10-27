@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/c-bata/goptuna"
+	"github.com/Hikely/goptuna"
 	"github.com/gorilla/mux"
 )
 
