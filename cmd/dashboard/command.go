@@ -31,13 +31,7 @@ func GetCommand() *cobra.Command {
 				os.Exit(1)
 			}
 
-			dialect, dbargs, err := sqlalchemy.ParseDatabaseURL(storageURL, &EngineOption{ParseTime: true})
-			if err != nil {
-				cmd.PrintErrln(err)
-				os.Exit(1)
-			}
-
-			db, err := gorm.Open(dialect, dbargs...)
+			db, err := gorm.Open("mysql", storageURL)
 			if err != nil {
 				cmd.PrintErrln(err)
 				os.Exit(1)
