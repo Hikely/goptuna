@@ -5,12 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/c-bata/goptuna/rdb"
+	"github.com/Hikely/goptuna/rdb"
 	"github.com/jinzhu/gorm"
 
-	"github.com/c-bata/goptuna/dashboard"
+	"github.com/Hikely/goptuna/dashboard"
 
-	"github.com/c-bata/goptuna/internal/sqlalchemy"
 	"github.com/spf13/cobra"
 )
 

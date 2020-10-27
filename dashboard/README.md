@@ -44,8 +44,8 @@ Use "goptuna [command] --help" for more information about a command.
 You just run to `make build-dashboard` to compile TypeScript files and embedding to Go.
 
 ```
-$ docker build -t c-bata/goptuna-dashboard ./dashboard
-$ docker run -it --rm -v `PWD`/dashboard/statik:/usr/src/statik c-bata/goptuna-dashboard
+$ docker build -t Hikely/goptuna-dashboard ./dashboard
+$ docker run -it --rm -v `PWD`/dashboard/statik:/usr/src/statik Hikely/goptuna-dashboard
 ```
 
 

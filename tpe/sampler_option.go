@@ -3,7 +3,7 @@ package tpe
 import (
 	"math/rand"
 
-	"github.com/c-bata/goptuna"
+	"github.com/Hikely/goptuna"
 )
 
 // SamplerOption is a type of the function to customizing TPE sampler.

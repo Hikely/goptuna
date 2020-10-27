@@ -45,7 +45,7 @@ cover:  ## Run the tests.
 
 .PHONY: godoc
 godoc: ## Run godoc http server
-	@echo "Please open http://localhost:6060/pkg/github.com/c-bata/goptuna/"
+	@echo "Please open http://localhost:6060/pkg/github.com/Hikely/goptuna/"
 	$(GODOC) -http=localhost:6060
 
 .PHONY: generate
@@ -60,10 +60,10 @@ build: ## Build example command lines.
 
 .PHONY: build-dashboard
 build-dashboard: ## Build dashboard and bundle it.
-	docker build -t c-bata/goptuna-dashboard ./dashboard
+	docker build -t Hikely/goptuna-dashboard ./dashboard
 	docker run -it --rm \
 		-v `PWD`/dashboard/statik:/usr/src/statik \
-		c-bata/goptuna-dashboard
+		Hikely/goptuna-dashboard
 
 .PHONY: help
 help: ## Show help text

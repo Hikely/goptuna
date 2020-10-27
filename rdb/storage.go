@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/c-bata/goptuna"
+	"github.com/Hikely/goptuna"
 	"github.com/google/uuid"
 	"github.com/jinzhu/gorm"
 )
@@ -719,7 +719,7 @@ func (s *Storage) GetAllTrials(studyID int) ([]goptuna.FrozenTrial, error) {
 	}
 
 	// Following SQL might raise 'too many SQL variables' error.
-	// See https://github.com/c-bata/goptuna/issues/30 for more details.
+	// See https://github.com/Hikely/goptuna/issues/30 for more details.
 	// err := s.db.
 	// 	Where("study_id = ?", studyID).
 	// 	Preload("UserAttributes").

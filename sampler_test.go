@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/c-bata/goptuna"
-	"github.com/c-bata/goptuna/internal/testutil"
+	"github.com/Hikely/goptuna"
+	"github.com/Hikely/goptuna/internal/testutil"
 )
 
 func TestRandomSamplerOptionSeed(t *testing.T) {

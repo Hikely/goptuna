@@ -5,8 +5,8 @@ import (
 	"log"
 	"math"
 
-	"github.com/c-bata/goptuna"
-	"github.com/c-bata/goptuna/tpe"
+	"github.com/Hikely/goptuna"
+	"github.com/Hikely/goptuna/tpe"
 	"golang.org/x/sync/errgroup"
 )
 
