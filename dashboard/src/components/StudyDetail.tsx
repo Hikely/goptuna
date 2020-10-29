@@ -98,22 +98,16 @@ export const StudyDetail: FC<{}> = () => {
               <GraphHistory study={studyDetail} />
             </CardContent>
           </Card>
-          <Grid container direction="row">
-            <Grid item xs={6}>
-              <Card className={classes.card}>
-                <CardContent>
-                  <GraphParallelCoordinate trials={trials} />
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={6}>
-              <Card className={classes.card}>
-                <CardContent>
-                  <GraphIntermediateValues trials={trials} />
-                </CardContent>
-              </Card>
-            </Grid>
-          </Grid>
+          <Card className={classes.card}>
+            <CardContent>
+              <GraphParallelCoordinate trials={trials} />
+            </CardContent>
+          </Card>
+          <Card className={classes.card}>
+            <CardContent>
+              <GraphIntermediateValues trials={trials} />
+            </CardContent>
+          </Card>
           <Card className={classes.card}>
             <TrialTable trials={trials} />
           </Card>

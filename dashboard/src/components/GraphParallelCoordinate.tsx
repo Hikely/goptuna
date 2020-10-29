@@ -1,5 +1,6 @@
 import * as plotly from "plotly.js-dist"
 import React, { FC, useEffect } from "react"
+import { Grid } from "@material-ui/core"
 
 const plotDomId = "graph-parallel-coordinate"
 
@@ -9,7 +10,13 @@ export const GraphParallelCoordinate: FC<{
   useEffect(() => {
     plotCoordinate(trials)
   }, [trials])
-  return <div id={plotDomId} />
+  return (
+      <Grid container direction="row">
+        <Grid item xs={12}>
+          <div id={plotDomId}/>
+        </Grid>
+      </Grid>
+  )
 }
 
 const plotCoordinate = (trials: Trial[]) => {
